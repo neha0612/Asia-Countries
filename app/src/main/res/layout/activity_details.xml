@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="13dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="42dp"
+        android:id="@+id/iv_activity_details_img"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="#260365"
+        android:text="Country"
+        android:id="@+id/tv_activity_details_country"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_details_country_capital"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:text="@string/capital"
+        android:textColor="#260365"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_details_country_region"
+        android:textSize="25sp"
+        android:text="Region"
+        android:textStyle="italic"
+        android:textColor="#260365"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_details_country_population"
+        android:textSize="25sp"
+        android:text="Population"
+        android:textStyle="italic"
+        android:textColor="#260365"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_details_country_borders"
+        android:textSize="25sp"
+        android:text="Borders"
+        android:textStyle="italic"
+        android:textColor="#260365"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_activity_details_country_languages"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:text="Languages"
+        android:textColor="#260365"/>
+
+
+
+</LinearLayout>
